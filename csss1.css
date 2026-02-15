@@ -1,0 +1,135 @@
+body {
+  background-image: url("/img/backround.webp");
+  background-size: cover;         
+  background-repeat: no-repeat;   
+  background-attachment: fixed;   
+  background-position: center; 
+}
+
+/*עיצוב זכויות יוצרים*/
+.footer {
+  background-color: #6f4e37; 
+  color: white;
+  text-align: center;
+  padding: 5px ;
+  font-size: 0.9em;
+  margin-top: 30px;
+  opacity: 0.7;/*שקיפות*/
+}
+
+
+/*עיצוב תמונות*/
+.crop {
+  overflow: hidden;
+}
+.crop img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;     /* פינות עגולות   */
+  border: 2px solid white; /* קו לבן מסביב */
+}
+
+.crop:hover img {
+  transform: scale(1.05);/* כשעוברים מעל עם העכבר התמונה גדלה מעט*/
+}
+
+/*צבע ל navbar*/
+nav {
+  background-color: #6f4e37; 
+}
+
+/*צבע למודל*/
+.modal-content{
+  background-color: #57361f; 
+}
+
+/*צבע לגוון כפתורים הבהיר יותר*/
+.btn-brown{
+  background-color:#815a3d; 
+  color: #e7e5e3;
+}
+.btn-brown:hover {
+  background-color: #866953; 
+  color:  #e7e5e3;            
+}
+
+/*צבע לגוון כפתורים הכהה יותר*/
+.btn-browner{
+  background-color: #3a2304; 
+  color: #e7e5e3;
+}
+.btn-browner:hover {
+  background-color: #462f11; 
+  color: #e7e5e3;           
+}
+.card{
+  background-color: #6f4e37; 
+  color: white;
+}
+
+
+
+
+/*עיצוב הטבלה*/
+.container .table th,
+.container .table td {
+    background-color: #815a3d; /* חום כהה */
+    border-color: white;     /* גבולות לבנים*/
+    color: white;           
+}
+
+
+/*מעלים הודעת שגיאה בהתחברות*/
+.showalartsignin {
+  display: none;
+}
+/*הודעת שגיאה בכניסה*/
+.showalartlogin {
+  display: none;
+}
+/*מבליט וצובע באדום את ההודעות שגיאה*/
+#emailwrong{
+  color: rgba(255, 0, 0, 0.639);
+  font-weight: bold;
+}
+#passwordwrong1{
+  color: rgba(255, 0, 0, 0.639);
+  font-weight: bold;
+}
+#passwordwrong2{
+  color: rgba(255, 0, 0, 0.639);
+  font-weight: bold;
+}
+#nonebirthdate{
+  color: rgba(255, 0, 0, 0.639);
+  font-weight: bold;
+}
+#notchecked{
+  color: rgba(255, 0, 0, 0.639);
+  font-weight: bold;
+}
+
+/*הגדלת כותרת ברוכים הבאים*/
+#welcome-headline {
+  font-size: 5rem;  
+}
+
+/*הגדלת כפתור התחברות מתחת לברוכים הבאים*/
+#sizebigbtn{
+  font-size: 2rem;     
+}
+
+/*עיצוב מלל של מרחק הכוס*/
+#distanceText1 {
+  text-align: center;
+  color: white;
+}
+/*עיצוב מלל של מרחק הכוס*/
+#distanceText2 {
+  text-align: center;
+  color: white;
+}
+
+
