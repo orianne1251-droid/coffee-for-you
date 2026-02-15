@@ -132,7 +132,7 @@ function logIn(){
       const loginModalEl = document.getElementById('loginModal');
       const loginModal = bootstrap.Modal.getInstance(loginModalEl);
       if (loginModal) loginModal.hide();
-      window.location.href = '../discheck.html';
+      window.location.href = '/coffee-for-you/discheck.html';
     })
     .catch((error) => {
       console.log(error.message);
@@ -149,6 +149,7 @@ function logout(){
 function gotomake(){
   window.location.href = './make.html';
 }
+
 
 
 
