@@ -39,7 +39,7 @@ function orderCappuccino() {
             decimalValue = parseInt(binary, 2);
             console.log("☕ קפוצ'ינו → בינארי:", binary, "דצימלי:", decimalValue);
             firebase.database().ref("/toAltera").set(decimalValue);
-            window.location.href = '/discheck.html';
+            window.location.href = './discheck.html';
         }, 2000); // 2000 מילישניות
 
     });
@@ -73,7 +73,7 @@ function orderAmericano() {
 
             console.log("☕ אמריקנו → בינארי:", binary, "דצימלי:", decimalValue);
             firebase.database().ref("/toAltera").set(decimalValue);  
-            window.location.href = '/discheck.html';
+            window.location.href = './discheck.html';
         }, 2000); // 2000 מילישניות
 
     });
@@ -101,7 +101,7 @@ function orderMacchiato() {
             decimalValue = parseInt(binary, 2);
             console.log("☕ מקיאטו → בינארי:", binary, "דצימלי:", decimalValue);
             firebase.database().ref("/toAltera").set(decimalValue);  
-            window.location.href = '/discheck.html';
+            window.location.href = './discheck.html';
         }, 2000); // 2000 מילישניות
 
     });
@@ -134,12 +134,13 @@ function orderEspresso() {
 
             console.log("☕ אספרסו → בינארי:", binary, "דצימלי:", decimalValue);
             firebase.database().ref("/toAltera").set(decimalValue);  
-            window.location.href = '/discheck.html';
+            window.location.href = './discheck.html';
         }, 2000); // 2000 מילישניות
 
     });
 
 }
+
 
 
 
