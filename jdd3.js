@@ -19,12 +19,12 @@ DISTANCEREF.on('value', reciveData );
 function reciveData(snapshot) {
     const data = snapshot.val();
     if (data > 35) {
-      document.getElementById("distanceImg").src = "./כוס עצובה.png"
+      document.getElementById("distanceImg").src = "./sad.png"
       document.getElementById("distanceText1").innerText = "שים/י את הכוס במכונה!☕";
       document.getElementById("distanceText2").innerText ="הכוס רחוקה מידי מהמכונה😞";
       document.getElementById("addbutton").innerText ='';
     } else {
-      document.getElementById("distanceImg").src = "./כוס שמחה.png"
+      document.getElementById("distanceImg").src = "./happy.png"
       document.getElementById("distanceText1").innerText = "הכוס במיקום מצוין!☕";
       document.getElementById("distanceText2").innerText = "לחץ על הכפתור לבחירת הקפה😝";
       document.getElementById("addbutton").innerHTML ='<button class="btn btn-browner" onclick="gotomake()">לחץ כאן</button>';
@@ -149,6 +149,7 @@ function logout(){
 function gotomake(){
   window.location.href = './make.html';
 }
+
 
 
 
