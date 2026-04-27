@@ -18,7 +18,7 @@ DISTANCEREF.on('value', reciveData );
 
 function reciveData(snapshot) {
     const data = snapshot.val();
-    if (data > 35) {
+    if (data > 6) {
       document.getElementById("distanceImg").src = "./sad.png"
       document.getElementById("distanceText1").innerText = "שים/י את הכוס במכונה!☕";
       document.getElementById("distanceText2").innerText ="הכוס רחוקה מידי מהמכונה😞";
